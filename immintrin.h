@@ -41,8 +41,6 @@ static inline __m256 _mm256_mul_ps(__m256 a, __m256 b) {
     return r;
 }
 
-// You can add other _mm256_… fallbacks here as needed
-
 #else  // x86
 
 #include <immintrin.h>
